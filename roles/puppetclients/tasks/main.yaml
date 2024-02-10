@@ -2,7 +2,13 @@
   ansible.builtin.debug:
     msg: Hello puppetclients
 
-- name: Remove file (delete file)
+- name: create file
   ansible.builtin.file:
     path: /tmp/ansible.txt
     state: present
+
+- name: Download foo.conf
+  ansible.builtin.get_url:
+    url: https://raw.githubusercontent.com/gareji/ansible-pull/main/playbook.yaml
+    dest: /tmp/playbook.yaml
+    mode: '0440'
