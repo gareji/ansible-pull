@@ -1,3 +1,6 @@
-myhosts:
+puppetclinets:
   hosts:
     puppetclient:
+puppetmasters:
+  hosts:
+    puppetmaster:
