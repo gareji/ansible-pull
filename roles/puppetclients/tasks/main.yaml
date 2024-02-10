@@ -1,3 +1,8 @@
 - name: Print message
   ansible.builtin.debug:
     msg: Hello puppetclients
+
+- name: Remove file (delete file)
+  ansible.builtin.file:
+    path: /tmp/ansible.txt
+    state: present
