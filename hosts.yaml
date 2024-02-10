@@ -1,6 +1,6 @@
 puppetclinets:
   hosts:
-    puppetclient:
+    10.100.0.21:
 puppetmasters:
   hosts:
-    puppetmaster:
+    10.100.0.20:
