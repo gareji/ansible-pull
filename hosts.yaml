@@ -1,6 +1,6 @@
 puppetclinets:
   hosts:
-    nginx.remedium.local:
+    nginx.qa.remedium.local:
     puppetclient.prod.remedium.local:
 puppetmasters:
   hosts:
