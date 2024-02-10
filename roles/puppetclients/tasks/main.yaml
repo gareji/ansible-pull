@@ -5,7 +5,7 @@
 - name: create file
   ansible.builtin.file:
     path: /tmp/ansible.txt
-    state: present
+    state: file
 
 - name: Download foo.conf
   ansible.builtin.get_url:
