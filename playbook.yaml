@@ -1,3 +1,7 @@
+- name: baselinux
+  hosts: all
+  roles:
+    - baselinux
 - name: puppetclients
   hosts: puppetclinets
   roles:
