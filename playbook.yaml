@@ -1,5 +1,5 @@
 - name: puppetclients
-  hosts: puppetclients
+  hosts: puppetclinets
   roles:
     - puppetclients
 - name: puppetmasters
