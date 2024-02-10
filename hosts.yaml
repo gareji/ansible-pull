@@ -1,6 +1,8 @@
 puppetclinets:
   hosts:
-    10.100.0.21:
+    puppetclient.qa.remedium.local:
+    puppetclient.prod.remedium.local:
 puppetmasters:
   hosts:
-    10.100.0.20:
+    puppetmaster.qa.remedium.local:
+    puppetmaster.prod.remedium.local:
