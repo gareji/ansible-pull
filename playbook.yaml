@@ -1,7 +1,7 @@
 - name: puppetclients
   hosts: puppetclients
   roles:
-    - puppetmasters
+    - puppetclients
 - name: puppetmasters
   hosts: puppetmasters
   roles:
