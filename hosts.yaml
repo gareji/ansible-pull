@@ -1,4 +1,4 @@
-puppetclinets:
+nginx:
   hosts:
     nginx.qa.remedium.local:
     nginx.preprod.remedium.local:
