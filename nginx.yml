@@ -7,4 +7,4 @@
   roles:
     - nginx
   vars:
-    nginx_proxy_url: google.com
+    nginx_proxy_url: duckduckgo.com
