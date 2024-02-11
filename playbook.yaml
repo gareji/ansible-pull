@@ -2,10 +2,10 @@
   hosts: all
   roles:
     - baselinux
-- name: puppetclients
-  hosts: puppetclinets
+- name: nginx
+  hosts: nginx
   roles:
-    - puppetclients
+    - nginx
 - name: puppetmasters
   hosts: puppetmasters
   roles:
