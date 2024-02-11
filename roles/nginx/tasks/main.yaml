@@ -2,3 +2,16 @@
   ansible.builtin.apt:
     name: nginx
     state: present
+
+- name: Remove file (delete file)
+  ansible.builtin.file:
+    path: /etc/nginx/sites-available/default
+    state: absent
+
+- name: create proxy
+  ansible.builtin.template:
+      src: templates/site.j2
+      dest: /etc/nginx/conf.d/website.conf
+  notify: reload_nginx
+
+

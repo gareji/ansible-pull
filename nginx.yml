@@ -6,7 +6,5 @@
   hosts: nginx
   roles:
     - nginx
-- name: puppetmasters
-  hosts: puppetmasters
-  roles:
-    - puppetmasters
+  vars:
+    nginx_proxy_url: google.com
