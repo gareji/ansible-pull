@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Check Branch') {
             steps {
-                echo "Hello from develop branch"
+                sh "docker build . -t test"
             }
         }
     }
