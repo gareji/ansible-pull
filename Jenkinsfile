@@ -1,9 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('Hello') {
+        stage('Check Branch') {
+            when {
+                branch 'develop'
+            }
             steps {
-                echo 'Hello World'
+                echo "Hello from develop branch"
             }
         }
     }
